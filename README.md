@@ -16,6 +16,16 @@ This box uses Yarn v3.x. If you are using Node 16 or later you can enable it wit
 
 To interact with (your) snaps, you will need to install [MetaMask Flask](https://metamask.io/flask/), a canary distribution for developers that provides access to upcoming features. You should install Flask in a separate browser profile from any existing MetaMask installation.
 
+[Install npm and Node.js](https://docs.npmjs.com/cli/v7/configuring-npm/install)
+
+Checking your installed version of npm and Node.js
+To see if you already have Node.js and npm installed and check the installed version, run the following commands:
+
+``shell 
+node -v
+npm -v
+``
+
 Before using this box, install Truffle and Ganache globally:
 
 ```shell
